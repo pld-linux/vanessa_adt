@@ -25,6 +25,7 @@ Summary:	Headers for vanessa_adt development
 Summary(pl):	Pliki nag³ówkowe vanessa_adt
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
+Requires:	vanessa_logger-devel >= 0.0.4
 
 %description devel
 Headers required to develop against vanessa_adt.
