@@ -1,11 +1,11 @@
 Summary:	Library of Abstract Data Types
 Summary(pl):	Biblioteka abstrakcyjnych typów danych (ADT)
 Name:		vanessa_adt
-Version:	0.0.2
-Release:	3
+Version:	0.0.3
+Release:	1
 License:	LGPL
 Group:		Libraries
-Source0:	ftp://vergenet.net/pub/vanessa_adt/vanessa_adt/%{name}-%{version}.tar.gz
+Source0:	ftp://vergenet.net/pub/vanessa/vanessa_adt/0.0.3/%{name}-%{version}.tar.gz
 URL:		http://vanessa.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
