@@ -24,7 +24,7 @@ które mog± byæ przydatne. Zawiera kolejki, dynamiczne tablice...
 Summary:	Headers for vanessa_adt development
 Summary(pl):	Pliki nag³ówkowe vanessa_adt
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	vanessa_logger-devel >= 0.0.4
 
 %description devel
@@ -38,7 +38,7 @@ vanessa_adt.
 Summary:	Static libraries for vanessa_adt development
 Summary(pl):	Biblioteki statyczne vanessa_adt
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libraries to develop against vanessa_adt.
