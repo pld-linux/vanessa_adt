@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://www.vergenet.net/linux/vanessa/download/%{name}/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	069105755c1c5450d1fa7a8c319e08ed
 URL:		http://www.vergenet.net/linux/vanessa/
-BuildRequires:	gcc-c++
+BuildRequires:	autoconf
 BuildRequires:	vanessa_logger-devel >= 0.0.4
 Requires:	vanessa_logger >= 0.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -51,8 +51,8 @@ Biblioteki statyczne vanessa_adt.
 %setup -q
 
 %build
+%{__autoconf}
 %configure
-
 %{__make}
 
 %install
