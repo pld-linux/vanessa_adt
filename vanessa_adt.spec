@@ -56,8 +56,8 @@ mv -f configure.in.tmp configure.in
 rm -f missing
 libtoolize --copy --force
 aclocal
-autoconf
-automake -a -c -f
+%{__autoconf}
+%{__automake}
 %configure
 CFLAGS="%{rpmcflags}"
 %{__make}
