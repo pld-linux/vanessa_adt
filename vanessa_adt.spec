@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://vergenet.net/pub/vanessa/vanessa_adt/0.0.3/%{name}-%{version}.tar.gz
+# Source0-md5:	4f3b10f3f04aa7496595fb3d33047f78
 URL:		http://vanessa.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
