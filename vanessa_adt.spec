@@ -1,5 +1,3 @@
-# TODO
-# - shared lib is without .so?!
 Summary:	Library of Abstract Data Types
 Summary(pl):	Biblioteka abstrakcyjnych typów danych (ADT)
 Name:		vanessa_adt
@@ -13,6 +11,7 @@ URL:		http://www.vergenet.net/linux/vanessa/
 BuildRequires:	autoconf
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	vanessa_logger-devel >= 0.0.4
 Requires:	vanessa_logger >= 0.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -55,6 +54,7 @@ Biblioteki statyczne vanessa_adt.
 %setup -q
 
 %build
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
@@ -77,16 +77,14 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README ChangeLog NEWS TODO
-#%attr(755,root,root) %{_libdir}/lib*.so.*.*
-%attr(755,root,root) %{_libdir}/lib*.*.*
+%attr(755,root,root) %{_libdir}/libvanessa_adt.so.*.*
 
 %files devel
 %defattr(644,root,root,755)
-#%attr(755,root,root) %{_libdir}/lib*.so
-%attr(755,root,root) %{_libdir}/libvanessa_adt
-%{_libdir}/lib*.la
+%attr(755,root,root) %{_libdir}/libvanessa_adt.so
+%{_libdir}/libvanessa_adt.la
 %{_includedir}/*.h
 
 %files static
 %defattr(644,root,root,755)
-%{_libdir}/lib*.a
+%{_libdir}/libvanessa_adt.a
