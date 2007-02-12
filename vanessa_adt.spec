@@ -1,5 +1,5 @@
 Summary:	Library of Abstract Data Types
-Summary(pl.UTF-8):   Biblioteka abstrakcyjnych typów danych (ADT)
+Summary(pl.UTF-8):	Biblioteka abstrakcyjnych typów danych (ADT)
 Name:		vanessa_adt
 Version:	0.0.7
 Release:	1
@@ -26,7 +26,7 @@ które mogą być przydatne. Zawiera kolejki, dynamiczne tablice...
 
 %package devel
 Summary:	Headers for vanessa_adt development
-Summary(pl.UTF-8):   Pliki nagłówkowe vanessa_adt
+Summary(pl.UTF-8):	Pliki nagłówkowe vanessa_adt
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	vanessa_logger-devel >= 0.0.4
@@ -40,7 +40,7 @@ vanessa_adt.
 
 %package static
 Summary:	Static libraries for vanessa_adt development
-Summary(pl.UTF-8):   Biblioteki statyczne vanessa_adt
+Summary(pl.UTF-8):	Biblioteki statyczne vanessa_adt
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
