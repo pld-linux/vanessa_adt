@@ -1,5 +1,5 @@
 Summary:	Library of Abstract Data Types
-Summary(pl):	Biblioteka abstrakcyjnych typÛw danych (ADT)
+Summary(pl.UTF-8):   Biblioteka abstrakcyjnych typ√≥w danych (ADT)
 Name:		vanessa_adt
 Version:	0.0.7
 Release:	1
@@ -20,13 +20,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Library of Abstract Data Types (ADTs) that may be useful. Includes
 queue, dynamic array and key value ADT.
 
-%description -l pl
-Biblioteka abstrakcyjnych typÛw danych (ADT = Abstract Data Types),
-ktÛre mog± byÊ przydatne. Zawiera kolejki, dynamiczne tablice...
+%description -l pl.UTF-8
+Biblioteka abstrakcyjnych typ√≥w danych (ADT = Abstract Data Types),
+kt√≥re mogƒÖ byƒá przydatne. Zawiera kolejki, dynamiczne tablice...
 
 %package devel
 Summary:	Headers for vanessa_adt development
-Summary(pl):	Pliki nag≥Ûwkowe vanessa_adt
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe vanessa_adt
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	vanessa_logger-devel >= 0.0.4
@@ -34,20 +34,20 @@ Requires:	vanessa_logger-devel >= 0.0.4
 %description devel
 Headers required to develop against vanessa_adt.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe potrzebne do tworzenia prÛgramÛw z uøyciem
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe potrzebne do tworzenia pr√≥gram√≥w z u≈ºyciem
 vanessa_adt.
 
 %package static
 Summary:	Static libraries for vanessa_adt development
-Summary(pl):	Biblioteki statyczne vanessa_adt
+Summary(pl.UTF-8):   Biblioteki statyczne vanessa_adt
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libraries to develop against vanessa_adt.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteki statyczne vanessa_adt.
 
 %prep
