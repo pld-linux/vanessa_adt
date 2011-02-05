@@ -11,6 +11,7 @@ URL:		http://www.vergenet.net/linux/vanessa/
 BuildRequires:	autoconf
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libltdl-devel
 BuildRequires:	libtool
 BuildRequires:	vanessa_logger-devel >= 0.0.8
 Requires:	vanessa_logger >= 0.0.8
