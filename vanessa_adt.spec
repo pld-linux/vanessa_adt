@@ -1,12 +1,12 @@
 Summary:	Library of Abstract Data Types
 Summary(pl.UTF-8):	Biblioteka abstrakcyjnych typów danych (ADT)
 Name:		vanessa_adt
-Version:	0.0.8
+Version:	0.0.9
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.vergenet.net/linux/vanessa/download/vanessa_adt/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	10cc585ce849cf852e03985f08ae5473
+# Source0-md5:	ba1a33ec7b9b04b20865912dc188e9fd
 URL:		http://www.vergenet.net/linux/vanessa/
 BuildRequires:	autoconf
 BuildRequires:	autoconf
@@ -78,7 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README ChangeLog NEWS TODO
 %attr(755,root,root) %{_libdir}/libvanessa_adt.so.*.*
-%attr(755,root,root) %{_libdir}/libvanessa_adt.so.0
+%attr(755,root,root) %{_libdir}/libvanessa_adt.so.1
 
 %files devel
 %defattr(644,root,root,755)
